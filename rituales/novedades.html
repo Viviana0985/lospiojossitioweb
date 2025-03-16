@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Piojos - Sitio Oficial | Novedades</title>
+     <!-- Enlace a archivo CSS -->
+     <link rel="stylesheet" href="../css/estilos.css">
+     <!-- Enlace a Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <!-- Enlace a Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+
+    </head>
+<body>
+    
+<!-- Menu con Bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="../imagenes/logo-blanco.png" alt="Los Piojos" class="logo-navbar">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+  
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="ritualesDropdown" role="button" data-bs-toggle="dropdown">
+                        Rituales
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../rituales/index.html">Proximas Fechas</a></li>
+                        <li><a class="dropdown-item" href="../rituales/novedades.html">Novedades</a></li>
+                    </ul>
+                </li>
+  
+                <li class="nav-item">
+                    <a class="nav-link" href="../envivo/index.html">En Vivo</a>
+                </li>
+  
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="biografiaDropdown" role="button" data-bs-toggle="dropdown">
+                        Biografía
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../biografia/index.html">Historia</a></li>
+                        <li><a class="dropdown-item" href="../biografia/triviapiojosa.html">Trivia Piojosa</a></li>
+                    </ul>
+                </li>
+  
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="discoDropdown" role="button" data-bs-toggle="dropdown">
+                        Discografía
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../discografia/index.html">Álbumes</a></li>
+                        <li><a class="dropdown-item" href="../discografia/letras.html">Letras</a></li>
+                    </ul>
+                </li>
+  
+                <li class="nav-item">
+                    <a class="nav-link" href="../videos/index.html">Videos</a>
+                </li>
+  
+                <li class="nav-item">
+                    <a class="nav-link" href="../cajasviejas/index.html">Cajas Viejas</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="piojososDropdown" role="button" data-bs-toggle="dropdown">
+                        Piojosos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../piojosos/index.html">Trapos</a></li>
+                        <li><a class="dropdown-item" href="../piojosos/tatuajeazul.html">Tatuaje Azul</a></li>
+                        <li><a class="dropdown-item" href="../piojosos/artepiojoso.html">Arte Piojoso</a></li>
+                    </ul>
+                    </li>  
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="contactoDropdown" role="button" data-bs-toggle="dropdown">
+                        Contacto
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../contacto/index.html">Formulario</a></li>
+                        <li><a class="dropdown-item" href="../contacto/desarrolladora.html">Sobre la Desarrolladora</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+  
+  <!-- Fin Menu con Bootstrap -->
+
+
+<main>
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Columna principal - Contenedor con fondo oscuro -->
+            <div class="col-md-8">
+                <div class="contenedor-noticias">
+                    <article class="mb-4">
+                        <h2>Los Piojos confirmaron su presentación en Mendoza: cuándo y dónde será</h2>
+                        <p class="text-muted">Miércoles 26 de febrero de 2025 - VALENTINA BUTTINI
+                        </p>
+                        <img src="../rituales/imagenes/mendoza.jpg" class="img-fluid mb-3" alt="Imagen Noticia1">
+                        <p>El pasado domingo 16 de febrero, Los Piojos se presentaron en Córdoba, en el marco del Cosquín Rock. La banda de rock liderada por Andrés Ciro Martínez convocó a más de 50 mil personas. En un momento del concierto, el cantante anunció que se presentarían en Mendoza y Rosario, aunque no especificó cuándo. Todos los detalles de su regreso, en la nota.</p>
+                        
+                        <!-- Botón para desplegar información -->
+                        <button class="btn btn-primary leer-mas" data-bs-toggle="collapse" data-bs-target="#noticia1">
+                            Leer más
+                        </button>
+
+                        <!-- Contenido oculto -->
+                        <div id="noticia1" class="collapse mt-3">
+                            <p>Poco tiempo después de aquel anuncio, se comenzó a rumorear la fecha y espacio donde la agrupación podría presentarse. MDZ informó que, en ese entonces, se rumoreaba que Los Piojos se presentarían el próximo sábado 3 de mayo en el Teatro Griego Frank Romero Day. Y es un hecho.<br>
+                                Este miércoles al mediodía, la cuenta oficial de Instagram de la banda confirmó con un video que se subirán al escenario del famoso Teatro el 3 de mayo.<br>
+                                "¡HAY RITUAL PIOJOSO EN MENDOZA! 3 de mayo en el Teatro Griego Frank Romero Day. Entradas próximamente a la venta en @ticketekar", escribió la banda junto a la publicación.<br>
+                                En menos de media hora, el posteo se llenó de más de cinco mil me gustas. </p>
+
+                        </div>
+                    </article>
+
+                    <article class="mb-4">
+                        <h2>Cosquín Rock: 25 años de historia con el regreso de Los Piojos</h2>
+                        <p class="text-muted">19 febrero de 2025 - LUCAS SEOANE</p>
+                        <img src="../rituales/imagenes/cosquin-rock.jpg" class="img-fluid mb-3" alt="Imagen Noticia2">
+                        <p>Con más de 100 mil entradas vendidas entre las dos jornadas, el festival más trascendente del país celebró sus 25 años el fin de semana con una edición que tuvo al regreso de Los Piojos como mayor atractivo.</p>
+                        
+                        <!-- Botón para desplegar información -->
+                        <button class="btn btn-primary leer-mas" data-bs-toggle="collapse" data-bs-target="#noticia2">
+                            Leer más
+                        </button>
+
+                        <!-- Contenido oculto -->
+                        <div id="noticia2" class="collapse mt-3">
+                            <p>El ritual se consumó entero: cuando bien pasada la medianoche y luego de casi tres horas de show, Andrés Ciro Martínez y Daniel “Piti” Fernández comenzaron a nombrar una por una la gran cantidad de banderas que hacían gala del aguante que había llegado desde diferentes puntos del país y hasta de países limítrofes, los más nostálgicos recordaron aquella escena que se volvió una hermosa costumbre al ritmo de Finale en el epílogo de los recitales de Los Piojos.<br>
+                                Inmejorable actitud para coronar el comienzo del cierre de esta 25ª edición que tuvo de todo en lo estilístico, cierta uniformidad a la hora de cuestionar al presidente Javier Milei y algunos problemas técnicos que, por ejemplo, llevaron a que el show de Skay se acortara considerablemente.<br>
+                                Antes de ese emotivo rito, el propio Ciro había amagado un par de veces con que era “el último tema” y hasta generó un inolvidable ida y vuelta con el público en diferentes tonos entre un recurrente “sí” de él y un “no” de la gente, que se había quedado con ganas de más.<br>
+                                Cuando sonó el “uo pa pa uo pa pa” con el que arranca El Farolito (que se enganchó con La rubia tarada como era costumbre), el salto colectivo fue una de las mejores postales que nos dejó la jornada de cierre de Cosquín Rock 2025, que al igual que la primera, volvió a tener entradas agotadas.<br></p>
+                                
+                               <h3>Los Piojos, show completito</h3>  
+
+                          <p>“Muchas gracias Cosquín. Buenas noches, somos Los Piojos”. Así presentó Andrés Ciro Martínez a su banda, recientemente reunida y en su regreso a , un festival que atestiguó cómo surfeó la masividad en el tránsito del siglo anterior a este nuevo. La presentó como si fuera una formación emergente, que tiene todo para ganarse.<br>
+                            El textual señalado de Martínez sucedió al enérgico comienzo que tuvo la tríada Arco/Te diría/Yira Yira, esta última una canción acorde a este tiempo de proliferación de discursos de odio compatibles con eso de “verás que todo es mentira/ verás que nada es amor”<br>
+                            Luego siguió el medio tiempo Vine hasta aquí y la balada Difícil, “un tema para todos los enamorados doloridos”, según presentó Martínez.<br>
+                            Luz de marfil fue el clásico al que acudieron Los Piojos apenas Palazzo terminó su diagnóstico. Debía terminarlo, porque el coro popular no le hubiera permitido explayarse.<br>
+                            Siguieron el melancólico Sudestada y el contundente Llevatelo, con Martínez tan desaforado en su interpretación (cambió la letra para aludir a la estafa cripto presidencial; “tanta criptomoneda”, se le oyó) como la pared de guitarras que armaron Piti Fernández y Juan Manuel Gigena Ábalos. Este último tiene la responsabilidad artística de reemplazar al fallecido Gustavo “Tavo” Kupinski.<br>
+                            Tan solo (canción que tuvo como invitado estelar a Ca7riel en la guitarra) se mashupeó con el Sympathy For The Devil de los Stones y seteó los ánimos de manera inmejorable para recibir Ay ay ay y un nuevo vendaval de clásicos.<br>
+                            </p>
+                        </div>
+                    </article>
+                    
+                    <article class="mb-4">
+                        <h2>Quilmes Rock 2025 sumó un día extra y tocarán Los Piojos</h2>
+                        <p class="text-muted">28  de Noviembre de 2024 - PAGINA 12</p>
+                        <img src="../rituales/imagenes/grilla-quilmes.jpg" class="img-fluid mb-3" alt="Imagen noticia3">
+                        <p>El mega evento anunció una nueva fecha y contará con cuatro jornadas a pura música. Además, la banda de Andres Ciro Martinez dirá presente. Cómo sacar entradas y los precios de los abonos..</p>
+                        
+                        <!-- Botón para desplegar información -->
+                        <button class="btn btn-primary leer-mas" data-bs-toggle="collapse" data-bs-target="#noticia3">
+                            Leer más
+                        </button>
+
+                        <!-- Contenido oculto -->
+                        <div id="noticia3" class="collapse mt-3">
+                            <p>La vuelta del Quilmes Rock llega con varias sorpresas y un gran anuncio que despierta como de costumbre la atención de sus seguidores. En esta edición en particular, los fanáticos de Los Piojos tienen una gran noticia, ya que el grupo confirmó su presencia para el mega evento. Además, el emblemático festival contará con una nueva fecha, que se suma a las tres jornadas.<br>
+                                Al igual que en la última edición en 2022, se confirmó que las cuatro fechas del Quilmes Rock 2025 se llevarán a cabo en el predio de Tecnópolis.<br>
+                                Además de Los Piojos, el festival contará con bandas y artistas de la talla de Andrés Calamaro, Andrés Calamaro, Los Fabulosos Cadillacs, Seru Giran, Las Pelotas, Miranda!, Las Pastillas del Abuelo, Los Autenticos Decadentes, Dillom, El Mató a un Policía Motorizado, Rata Blanca, La Vela Puerca y La Beriso, entre otros.<br>
+                               y seteó los ánimos de manera inmejorable para recibir Ay ay ay y un nuevo vendaval de clásicos.<br>
+                               En el sitio web de Enigma Tickets se pueden conseguir las entradas para "la versión más convocante de la historia" del festival de música y entretenimiento, según palpitan desde Pop Art Music Argentina.<br>
+                        </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Barra lateral - Redes sociales -->
+            <div class="col-md-4">
+                <h4>Redes Sociales</h4>
+                <div class="mb-3">
+          <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¡¡¡GRACIAS PIOJOSOS!!! <a href="https://t.co/mPpqI9M8ku">pic.twitter.com/mPpqI9M8ku</a></p>&mdash; Los Piojos (@piojosoficial) <a href="https://twitter.com/piojosoficial/status/1839456356450893833?ref_src=twsrc%5Etfw">September 27, 2024</a></blockquote>
+
+                    <script async src="https://platform.twitter.com/widgets.js"></script>
+                </div>
+                <div>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4QdsQSL30AR51ORqBGqbph?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</main>
+
+
+<footer class="text-center text-light bg-dark p-2">
+    <p>©2025 Los Piojos Web- Sitio No Oficial. Todos los derechos reservados.</p>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="../js/novedades.js" defer></script>
+  
+
+</body>
+</html>
