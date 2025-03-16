@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Piojos - Sitio Oficial | Trivia Piojosa</title>
+     <!-- Enlace a archivo CSS -->
+     <link rel="stylesheet" href="../css/estilos.css">
+     <!-- Enlace a Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Enlace a Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- Menu con Bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="../imagenes/logo-blanco.png" alt="Los Piojos" class="logo-navbar">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+  
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="ritualesDropdown" role="button" data-bs-toggle="dropdown">
+                        Rituales
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../rituales/index.html">Proximas Fechas</a></li>
+                        <li><a class="dropdown-item" href="../rituales/novedades.html">Novedades</a></li>
+                    </ul>
+                </li>
+  
+                <li class="nav-item">
+                    <a class="nav-link" href="../envivo/index.html">En Vivo</a>
+                </li>
+  
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="biografiaDropdown" role="button" data-bs-toggle="dropdown">
+                        Biografía
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../biografia/index.html">Historia</a></li>
+                        <li><a class="dropdown-item" href="../biografia/triviapiojosa.html">Trivia Piojosa</a></li>
+                    </ul>
+                </li>
+  
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="discoDropdown" role="button" data-bs-toggle="dropdown">
+                        Discografía
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../discografia/index.html">Álbumes</a></li>
+                        <li><a class="dropdown-item" href="../discografia/letras.html">Letras</a></li>
+                    </ul>
+                </li>
+  
+                <li class="nav-item">
+                    <a class="nav-link" href="../videos/index.html">Videos</a>
+                </li>
+  
+                <li class="nav-item">
+                    <a class="nav-link" href="../cajasviejas/index.html">Cajas Viejas</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="piojososDropdown" role="button" data-bs-toggle="dropdown">
+                        Piojosos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../piojosos/index.html">Trapos</a></li>
+                        <li><a class="dropdown-item" href="../piojosos/tatuajeazul.html">Tatuaje Azul</a></li>
+                        <li><a class="dropdown-item" href="../piojosos/artepiojoso.html">Arte Piojoso</a></li>
+                    </ul> 
+                    </li>
+
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="contactoDropdown" role="button" data-bs-toggle="dropdown">
+                        Contacto
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../contacto/index.html">Formulario</a></li>
+                        <li><a class="dropdown-item" href="../contacto/desarrolladora.html">Sobre la Desarrolladora</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+  
+  <!-- Fin Menu con Bootstrap -->
+<main>
+
+    <div>
+        <section class="banner-seccion">
+            <img src="../biografia/imagenes/banner-trivia.png" alt="Trivia" class="img-fluid">
+        </section>
+
+        <section id="trivia-piojosa" class="container mt-5 p-4">
+        
+            <div class="contenedor-juego p-4">
+                <div class="bg-dark-transparent p-4 rounded border border-danger">
+                <h1 class="text-center letras-titulo">Trivia Piojosa</h1>
+                <p class="lead text-center">¿Cuanto sabes sobre los Piojos?</p>
+                
+
+        <section class="container text-center my-4">
+            <h2 class="text-danger">Trivia Piojosa</h2>
+            <button id="iniciar-juego-btn" class="btn btn-success mt-3">Iniciar Juego</button>
+            <p id="pregunta" class="fs-4 fw-bold"></p>
+            <div id="opciones" class="d-flex flex-wrap justify-content-center"></div>
+            <p id="resultado" class="mt-3 fw-bold"></p>
+            <p id="puntaje" class="fs-5">Puntaje: 0</p>
+
+       
+            <button id="jugar-nuevo-btn" class="btn btn-warning d-none">Jugar de Nuevo</button>
+            <button id="finalizar-juego-btn" class="btn btn-secondary d-none">Finalizar Juego</button>
+    </section>
+            
+    </div>
+    <!-- Texto explicativo -->
+    <div class="row justify-content-center mt-4">
+        <div class="col-12 col-md-8 col-lg-6">
+            <p class="text-white fs-5">
+                En este juego, deberás responder preguntas sobre la historia de la banda 'Los Piojos'. Cada pregunta tendrá cuatro opciones, y solo una de ellas será correcta. Tienes hasta tres intentos para acertar en cada pregunta. ¡Por cada respuesta correcta, ganarás puntos, pero si te equivocas, perderás puntos y disminuirán tus intentos! El objetivo es obtener la mayor cantidad de puntos antes de que se acaben los intentos. ¡Buena suerte!
+            </p>
+        </div>
+    </div>
+</div>
+      
+    <div class="container text-center mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                <img src="../biografia/imagenes/laplata0024.jpg" class="img-fluid border border-danger rounded-3" alt="Piojsos">
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+</main>
+
+
+
+
+
+
+    <footer class="text-center text-light bg-dark">
+        <p>©2025 Los Piojos Web- Sitio No Oficial. Todos los derechos reservados.</p>
+      </footer>      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="../js/trivia.js"></script>
+
+    </body>
+ </html>
