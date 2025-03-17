@@ -753,3 +753,10 @@ section .card:hover {
 
 }
 
+@media (max-width: 768px) {
+    .col-md-4 {
+        width: 100%; /* Hace que cada tarjeta ocupe toda la fila */
+        flex: 0 0 100%;
+    }
+}
+
